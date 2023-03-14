@@ -10,3 +10,30 @@ body{
     align-items: center;
     flex-direction: column;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main div{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+main button{
+    width: 30rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #7300ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 0.3rem;
+}
+main button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem 0rem #131313;
+}
