@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./2859352.jpg");
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
