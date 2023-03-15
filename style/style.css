@@ -15,6 +15,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 main div{
     font-size: 2.5rem;
@@ -38,6 +39,7 @@ main button:hover{
     box-shadow: 0 1rem 2rem 0rem #131313;
 }
 pre{
+    position: absolute;
     z-index: 99;
     color: #000;
     background-color: #fff;
@@ -46,4 +48,27 @@ pre{
     padding: 2rem 2rem;
     font-size: 1.5rem;
     border-radius: 0.4rem;
+    /*top: -30rem;*/
+}
+.entering{
+    animation-name: enter;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+.exiting{
+    animation-name: enter;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+@keyframes enter {
+    from{
+        top: -30rem;
+    }
+    to{
+        top: 12rem;
+    }
 }
