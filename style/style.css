@@ -50,6 +50,7 @@ pre{
     border-radius: 0.4rem;
     top: -30rem;
     height: 19rem;
+    transition: all 0.5s;
 }
 i{
     position: absolute;
@@ -58,17 +59,5 @@ i{
     cursor: pointer;
 }
 .entering{
-    animation-name: enter;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-}
-@keyframes enter {
-    from{
-        top: -30rem;
-    }
-    to{
-        top: calc(50vh - 9.5rem);
-    }
+    top: calc(50vh - 9.5rem);
 }
